@@ -45,9 +45,9 @@ public class App {
         //myColl.add(jsondoc).execute();
 
         //three different find queries to retrieve data from database
-        //DocResult docs = myColl.find().execute();
+        DocResult docs = myColl.find().execute();
         //DocResult docs = myColl.find("dateof like :d"  ).bind("d","2018-09-05").execute();
-        DocResult docs = myColl.find("dateof like :d AND status like :status").bind("d","2018-09-05").bind("status",2).execute();
+        //DocResult docs = myColl.find("dateof like :d AND status like :status").bind("d","2018-09-05").bind("status",2).execute();
 
         //String aaa = gson.toJson(docs);
         //System.out.println(aaa );
