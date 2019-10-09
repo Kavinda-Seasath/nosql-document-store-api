@@ -16,7 +16,7 @@ public class apitest {
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public String test1() {
-        return "Testing zero";
+        return "Testing one";
     }
 
     /*@Path("/find")
